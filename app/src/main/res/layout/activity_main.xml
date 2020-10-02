@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/caterpillar_button"
         android:layout_width="229dp"
         android:layout_height="185dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -16,13 +16,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.289"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+        tools:srcCompat="@tools:sample/backgrounds/scenic"
+        android:contentDescription="@string/caterpiller_question" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="What caterpillar is this?"
-        tools:layout_editor_absoluteX="143dp"
-        tools:layout_editor_absoluteY="419dp" />
+        android:text="@string/what_caterpillar_is_this"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Git</string>
     <string name="caterpillar">imageView</string>
-    <string name="caterpiller_question">imageButton</string>
     <string name="what_caterpillar_is_this">What caterpillar is this?</string>
+    <string name="caterpillar_question">imageButton</string>
+    <string name="todo">TODO</string>
 </resources>

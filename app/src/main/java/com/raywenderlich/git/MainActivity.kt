@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val caterpillar_button = findViewById<ImageButton>(R.id.caterpillar_button)
+        val caterpillar_button = findViewById<ImageButton>(R.id.caterpillar_button2)
 
         caterpillar_button.setOnClickListener {
             val intent = Intent(this, MainActivity2::class.java)
